@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/dawa_front_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="Dawa Front Pharmacy logo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for visiting!"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#142D4E"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to log out?"
+        android:textSize="15sp"
+        android:textColor="#666666"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Yes, Log Out"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#008C95"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#142D4E"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
